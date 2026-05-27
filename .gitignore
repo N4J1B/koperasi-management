@@ -1,0 +1,34 @@
+# ── Database (jangan pernah di-push, berisi data pribadi anggota) ──
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Output export ──
+*.xlsx
+*.xls
+*.pdf
+*.docx
+
+# ── Python cache ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Environment ──
+.env
+.env.*
+venv/
+env/
+.venv/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──
+.vscode/
+.idea/
+*.sublime-project
